@@ -21,8 +21,9 @@ body{
 }
 
 header{
-    background-image: linear-gradient(to bottom, #694391, #3a284e) ; 
+    background-image: linear-gradient(to bottom, #694391, #45305e) ; 
     border-bottom: 1px solid rgb(228, 211, 211);
+   
 }
 
 header h1{
@@ -30,6 +31,7 @@ header h1{
     text-align: center;
     padding: 5px;
     font-size: 64px;
+    color: white;
 }
 
 header h2{
@@ -37,18 +39,32 @@ header h2{
     text-align: center;
     padding: 5px;
     font-size: 32px;
+    color: white;
+}
+
+header p{
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
 
 main{
     background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     min-width: 150px;
     max-width: 800px;
     margin: auto;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.315);
 }
 main > h1{
     text-align: center;
     padding: 5px;
-    
+    font-family:'Vidaloka', serif;;
+}
+
+main p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
