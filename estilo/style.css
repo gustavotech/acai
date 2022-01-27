@@ -2,7 +2,7 @@
 
 :root{
   
-    --cor0: #109902;
+    --cor0: #74f066;
     --cor1: #4C1036;
     --cor2: #992F72;
     --cor3: #991167;
@@ -63,8 +63,12 @@ main > h1{
     font-family:'Vidaloka', serif;;
 }
 
-main p{
+main h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+    background-image: linear-gradient(to right, var(--cor0), transparent 50%);
+    font-size: 32px;
+    font-weight: normal;
 }
 
 
