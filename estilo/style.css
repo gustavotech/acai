@@ -74,5 +74,38 @@ main h2{
     font-weight: normal;
 }
 
+footer{
+    text-align: center;
+    background-color: white;
+    text-justify: auto;
+    border-radius: 16px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 32px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.315);
+    max-width: 600px;
+}
+
+footer p{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(0, 0, 255, 0.836);
+}
+
+footer a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer > img{
+    padding: 10px;
+}
+
+
 
 
