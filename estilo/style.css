@@ -89,7 +89,8 @@ footer{
 footer p{
     font-size: 16px;
     font-weight: bold;
-    color: rgba(0, 0, 255, 0.836);
+    color: #1212e6;
+    
 }
 
 footer a{
@@ -102,9 +103,14 @@ footer a:hover{
     text-decoration: underline;
 }
 
-footer > img{
-    padding: 10px;
+.insta{
+    height: 20px;
+    margin: auto;
 }
+
+
+
+
 
 
 
