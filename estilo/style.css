@@ -79,7 +79,7 @@ aside ul{
     columns: 2;
     list-style-position: inside;
     list-style-type: var(--tem);
-    padding: 25px;
+    padding: 12px;
 }
 
 footer{
