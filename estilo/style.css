@@ -9,6 +9,7 @@
     --cor4: #694391;
 
     --tem: '\2714\00A0';
+    --não-tem: '\274C\00A0';
 }
 
 *{
@@ -78,8 +79,39 @@ main h2{
 aside ul{
     columns: 2;
     list-style-position: inside;
-    list-style-type: var(--tem);
+    list-style-type: var(--não-tem);
     padding: 7px;
+}
+
+.li01{
+    list-style-type: var(--tem);
+}
+
+.li02{
+    list-style-type: var(--tem);
+}
+.li03{
+    list-style-type: var(--tem);
+}
+
+.li04{
+    list-style-type: var(--tem);
+}
+ 
+.li05{
+    list-style-type: var(--não-tem);
+}
+
+.li06{
+    list-style-type: var(--não-tem);
+}
+
+.li07{
+    list-style-type: var(--não-tem);
+}
+
+.li08{
+    list-style-type: var(--não-tem);
 }
 
 footer{
