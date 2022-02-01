@@ -129,12 +129,12 @@ footer{
 footer p{
     font-size: 16px;
     font-weight: bold;
-    color: #1212e6;
+    color: #000000;
     
 }
 
 footer a{
-    color: black;
+    color: #1212e6;
     font-weight: bold;
     text-decoration: none;
 }
