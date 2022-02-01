@@ -26,15 +26,13 @@ body{
 header{
     background-image: url('../imagem/54-01-22-125437.png');
     padding: 7px;
-    border-image-slice: 27;
-    border-image-repeat: repeat;
-   
+    border-bottom: 8px solid rgba(0, 0, 0, 0.719);
 }
 
 header h1{
     font-family: 'Vidaloka', serif;
     text-align: center;
-    padding-top: 13px;
+    padding-top: 20px;
     font-size: 64px;
     color: white;
 }
@@ -51,10 +49,6 @@ header p{
     padding: 10px;
     margin-bottom: 20px;
     text-align: center;
-}
-
-nav{
-    border-top: 1px solid white;
 }
 
 main{
