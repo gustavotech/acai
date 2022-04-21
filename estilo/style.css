@@ -75,7 +75,7 @@ main h2{
     margin-left: 10px;
     background-image: linear-gradient(to right, var(--cor0), transparent 50%);
     border-radius: 17px;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: normal;
 }
 
@@ -115,6 +115,21 @@ aside ul{
 
 .tapioca {
     list-style-type: var(--nao-tem);
+}
+
+#valores {
+    margin-left: 35px;
+}
+
+.dinheiro {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding-left: 15px;
+    margin: 10px;
+    background-image: linear-gradient(to right, var(--cor0), transparent 50%);
+    border-radius: 17px;
+    font-size: 20px;
+    font-weight: normal;
 }
 
 footer{
