@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Vidaloka&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;500;600;700&display=swap');
 :root{
   
     --cor0: #74f066;
@@ -10,6 +10,8 @@
 
     --tem: '\00A0\2714\00A0\00A0';
     --não-tem: '\274C\00A0';
+
+    --fonte02: 'Libre Bodoni', serif;
 }
 
 *{
@@ -68,14 +70,15 @@ main > h1{
     font-family:'Vidaloka', serif;;
 }
 
-main h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.açais{
+    font-family: var(--fonte02);
+    font-weight: 700;
     text-align: left;
     padding-left: 15px;
     margin-left: 10px;
     background-image: linear-gradient(to right, var(--cor0), transparent 50%);
     border-radius: 17px;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: normal;
 }
 
@@ -121,14 +124,15 @@ aside ul{
     margin-left: 35px;
 }
 
-.dinheiro {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.dinheiro {  
+    font-family: var(--fonte02);
+    font-weight: 700;
     text-align: left;
     padding-left: 15px;
     margin: 10px;
     background-image: linear-gradient(to right, var(--cor0), transparent 50%);
     border-radius: 17px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: normal;
 }
 
@@ -145,14 +149,14 @@ footer{
 }
 
 footer p{
+    display: inline;
     font-size: 16px;
     font-weight: bold;
     color: #000000;
-    
 }
 
 footer a{
-    color: #1212e6;
+    color: #504e4e;
     font-weight: bold;
     text-decoration: none;
 }
@@ -163,5 +167,4 @@ footer a:hover{
 
 .insta{
     height: 20px;
-    margin: auto;
 }
